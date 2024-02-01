@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Quicksand-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Quicksand-Regular'),
+        url('../fonts/Quicksand-Regular.ttf') format('ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Quicksand-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    src: local('Quicksand-Medium'),
+        url('../fonts/Quicksand-Medium.ttf') format('ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto-Regular'),
+        url('../fonts/Roboto-Regular.ttf') format('ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto-Bold'),
+        url('../fonts/Roboto-Bold.ttf') format('ttf');
+    font-display: swap;
+}
