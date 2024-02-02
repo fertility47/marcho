@@ -3,6 +3,8 @@
 @import 'reset';
 @import 'global';
 
+/* header
+========================================================================================================*/
 .header{
     padding: 40px 0;
     &__inner{
@@ -62,7 +64,92 @@
         color: #fff;
     }
 }
+/* /header
+================================================================================================================================ */
 
+/* footer */
+    .footer{
+        background-color: $bg;
+    }
 
+    .footer-top{
+        padding: 70px 0 40px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        border-bottom: 1px solid #ececec;
+        justify-content: space-between;
+        &__logo{
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        &__item{
+           flex: 0 1 180px;
+        }
+        &__list-item{
+            margin-bottom: 14px;
+        }
+        &__item-title{
+            @extend %roboto-400;
+            margin-bottom: 33px;
+            font-size: 22px;
+            color: $title;
+        }
+        &__social-list{
+            display: flex;
+        }
+        &__social-item {
+            margin-right: 10px;
+        }
+        &__item-link{
+            display: block;
+            
+        }
+        &__social-link{
+           display: inline-block;
+           margin-right: 15px;
+           path{
+            fill: $default;
+           }
+        }
+        &__item-adress{
+            flex: 0 1 250px;
+        }
+        &__item-form{
+            flex: 0 1 470px;
+        }
+        &__form{
+            display: flex;
+        }
+        &__form-text{
+            margin-bottom: 25px;
+        }
+        &__form-input{
+            flex: 1 1 auto;
+        }
+        &__form-btn{
+            padding: 12px 26px;
+            background: $accent;
+            color: #fff;
+            text-transform: uppercase;
+            box-shadow: 0 7px 20px 0 rgba(255,17,48,.3);
+            border: none;
+            cursor: pointer;
+        }
+    }
+    .footer-bottom{
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 75px;
+        &__accept{
+            display: flex;
+            column-gap: 25px
+        }
+    }
+/* /footer
+================================================================================================================================= */
 @import 'media';
 
